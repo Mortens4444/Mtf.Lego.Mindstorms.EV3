@@ -1,0 +1,18 @@
+﻿using Mtf.Lego.Mindstorms.EV3.Enums;
+using Mtf.Lego.Mindstorms.EV3.Extensions;
+
+namespace Mtf.Lego.Mindstorms.EV3.Commands.Object;
+
+/// <summary>
+/// This function can be used for stopping a specific object in further execution.
+/// </summary>
+public class Stop : Command
+{
+#warning This command must be tested.
+    public Stop(ushort objectId)
+    {
+        data = DirectCommandNoReply;
+        data.Add(OpCode.ObjectStop);
+        data.AppendTwoBytesParameter(objectId);
+    }
+}
