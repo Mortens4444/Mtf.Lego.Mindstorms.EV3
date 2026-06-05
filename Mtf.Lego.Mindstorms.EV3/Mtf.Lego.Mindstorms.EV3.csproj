@@ -23,7 +23,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <FileVersion>$(Version)</FileVersion>
     <InformationalVersion>$(Version)</InformationalVersion>
@@ -54,7 +54,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.300" PrivateAssets="All" />
     <PackageReference Include="System.Drawing.Common" Version="10.0.8" />
-    <PackageReference Include="Mtf.Games" Version="1.0.4" />
+    <PackageReference Include="Mtf.Games" Version="1.0.5" />
     <PackageReference Include="Mtf.Music" Version="1.0.2" />
     <PackageReference Include="System.Drawing.Common" Version="10.0.8" />
     <PackageReference Include="System.IO.Ports" Version="10.0.8" />
