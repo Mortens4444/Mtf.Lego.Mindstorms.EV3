@@ -1,4 +1,5 @@
-﻿using Mtf.Lego.Mindstorms.EV3.Commands.Speaker;
+﻿using Mtf.Extensions;
+using Mtf.Lego.Mindstorms.EV3.Commands.Speaker;
 using Mtf.Lego.Mindstorms.EV3.Enums;
 using Mtf.Lego.Mindstorms.EV3.Resources;
 using Mtf.Music;

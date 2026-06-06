@@ -1,4 +1,5 @@
-﻿using Mtf.Lego.Mindstorms.EV3.Commands.LCD;
+﻿using Mtf.Extensions;
+using Mtf.Lego.Mindstorms.EV3.Commands.LCD;
 using Mtf.Lego.Mindstorms.EV3.Enums;
 using Mtf.Lego.Mindstorms.EV3.Resources;
 

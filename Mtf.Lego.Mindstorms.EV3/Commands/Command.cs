@@ -1,4 +1,5 @@
-﻿using Mtf.Lego.Mindstorms.EV3.Enums;
+﻿using Mtf.Extensions;
+using Mtf.Lego.Mindstorms.EV3.Enums;
 
 namespace Mtf.Lego.Mindstorms.EV3.Commands;
 
@@ -13,7 +14,7 @@ public abstract class Command
 
     public bool IsResponseRequired()
     {
-        return !Data[0].IsBitSet(0x80);
+        return !Data[0].IsBitPatternSet(0x80);
     }
 
     protected readonly List<byte> SystemCommandNoReply = [CommandType.SystemCommand | Response.NotExpected];
