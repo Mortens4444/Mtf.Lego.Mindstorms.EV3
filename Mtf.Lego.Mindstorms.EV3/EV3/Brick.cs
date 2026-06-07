@@ -51,7 +51,12 @@ public partial class Brick : IDisposable
     {
         deviceConnection = new NamedPipeClientStreamDeviceConnection(machine, pipeName);
     }
-    
+
+    public Brick(IDeviceConnection deviceConnection)
+    {
+        this.deviceConnection = deviceConnection;
+    }
+
     public void Connect()
     {
         if (!IsConnected)
